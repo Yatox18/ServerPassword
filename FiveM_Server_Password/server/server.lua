@@ -1,7 +1,6 @@
 local ESX = nil
 local Password = "test" --Set  your password
 local PasswordAttemptedMax = 3 -- Set the Number of tries
-local PasswordAttemptedMax = PasswordAttemptedMax - 1
 
 TriggerEvent("esx:getSharedObject", function(obj) 
     ESX = obj 
